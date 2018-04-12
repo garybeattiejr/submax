@@ -1,0 +1,25 @@
+.themecolor {
+    background-color: #FBB03B !important;
+}
+
+a.themecolor:focus, a.themecolor:hover {
+  background-color: #E5A036 !important; }
+
+.btn-themecolor {
+  color: #111;
+  background-color: #FBB03B;
+  border-color: #FBB03B; }
+  .btn-themecolor:hover {
+    color: #111;
+    background-color: #FBB74C;
+    border-color: #E5A036; }
+  .btn-themecolor:focus, .btn-themecolor.focus {
+    box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.5); }
+  .btn-themecolor.disabled, .btn-themecolor:disabled {
+    background-color: #FBB03B;
+    border-color: #FBB03B; }
+  .btn-themecolor:active, .btn-themecolor.active,
+  .show > .btn-themecolor.dropdown-toggle {
+    background-color: #FBB74C;
+    background-image: none;
+    border-color: #E5A036; }
